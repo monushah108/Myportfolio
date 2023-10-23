@@ -56,6 +56,6 @@ btn.addEventListener('click',function(e){
     }
     else{
         console.log('abe saale')
-        location.href = 'error.html'
+        location.href = './error.html'
     }
 })
