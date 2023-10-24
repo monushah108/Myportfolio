@@ -49,13 +49,13 @@ email.addEventListener('blur',()=>{
 btn.addEventListener('click',function(e){
     e.preventDefault()
     if(namev && mailva){
-        console.log('abe tu gya beta ')
+        alert('abe tu gya beta ')
         nam.value = ""
         email.value = ""
         phone.value = ""
     }
     else{
         console.log('abe saale')
-        location.href = './error.html'
+        location.href = 'error.html'
     }
 })
